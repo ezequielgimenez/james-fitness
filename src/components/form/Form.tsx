@@ -35,7 +35,7 @@ export default function ContactForm({ onClose }: FormCompProps) {
             🗙
           </button>
         </div>
-        <h2 className="text-3xl font-bold text-[#FF2332] text-center">
+        <h2 className="text-3xl font-outfit font-bold text-[#FF2332] text-center">
           Contact Me
         </h2>
 
@@ -50,7 +50,7 @@ export default function ContactForm({ onClose }: FormCompProps) {
             value={formData.name}
             onChange={handleChange}
             placeholder="Your Name"
-            className="p-3 rounded-lg bg-[#2A2A2A] text-gray-200 outline-none focus:ring-2 focus:ring-[#FF2332] transition"
+            className=" font-oxanium  p-3 rounded-lg bg-[#2A2A2A] text-gray-200 outline-none focus:ring-2 focus:ring-[#FF2332] transition"
           />
         </div>
 
@@ -65,7 +65,7 @@ export default function ContactForm({ onClose }: FormCompProps) {
             value={formData.email}
             onChange={handleChange}
             placeholder="your@email.com"
-            className="p-3 rounded-lg bg-[#2A2A2A] text-gray-200 outline-none focus:ring-2 focus:ring-[#FF2332] transition"
+            className="font-oxanium p-3 rounded-lg bg-[#2A2A2A] text-gray-200 outline-none focus:ring-2 focus:ring-[#FF2332] transition"
           />
         </div>
 
@@ -79,7 +79,7 @@ export default function ContactForm({ onClose }: FormCompProps) {
             value={formData.message}
             onChange={handleChange}
             placeholder="Write your message..."
-            className="p-3 rounded-lg bg-[#2A2A2A] text-gray-200 outline-none focus:ring-2 focus:ring-[#FF2332] transition"
+            className="font-oxanium p-3 rounded-lg bg-[#2A2A2A] text-gray-200 outline-none focus:ring-2 focus:ring-[#FF2332] transition"
           />
         </div>
 
