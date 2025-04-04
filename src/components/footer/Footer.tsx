@@ -23,7 +23,8 @@ export default function FooterComp() {
         <div className="flex flex-col items-center justify-center pt-10">
           <div className="xs:w-[300px] sm:w-[600px] lg:w-[1200px] h-[0.1px] bg-[#a09999]"></div>
           <p className="text-[10px] pt-10 pb-4">
-            © 2025 JPT Fitness. All rights reserved
+            © 2025 JPT Fitness. Developed with ❤️ by
+            ezequielgimenezdev@gmail.com
           </p>
         </div>
       </footer>
